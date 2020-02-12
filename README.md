@@ -45,3 +45,4 @@ mungify_exe() do mungify_exe_path
     run(`$mungify_exe_path $num_chars`)
 end
 ```
+
