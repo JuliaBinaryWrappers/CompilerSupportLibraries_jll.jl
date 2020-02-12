@@ -9,15 +9,6 @@ os = "windows"
     url = "https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl/releases/download/CompilerSupportLibraries-v0.2.0+1/CompilerSupportLibraries.v0.2.0.x86_64-w64-mingw32-libgfortran3.tar.gz"
 [[CompilerSupportLibraries]]
 arch = "i686"
-git-tree-sha1 = "6f44be5092a3b91eb1eb15dc33c878f453691b0b"
-libgfortran_version = "4.0.0"
-os = "windows"
-
-    [[CompilerSupportLibraries.download]]
-    sha256 = "8eaf07a909b3d2777e7bec444aec0c1c55a58e4c8f13a362dcc2b3e30631d156"
-    url = "https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl/releases/download/CompilerSupportLibraries-v0.2.0+1/CompilerSupportLibraries.v0.2.0.i686-w64-mingw32-libgfortran4.tar.gz"
-[[CompilerSupportLibraries]]
-arch = "i686"
 git-tree-sha1 = "228c497e07a0ce48aa0733a3079d0c94517a8d45"
 libgfortran_version = "5.0.0"
 os = "windows"
@@ -376,3 +367,12 @@ os = "windows"
     [[CompilerSupportLibraries.download]]
     sha256 = "f70fcf0d7c911c227d347aad685e94b1a5104b1938d90db1aefddd07e1c41b42"
     url = "https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl/releases/download/CompilerSupportLibraries-v0.2.2+0/CompilerSupportLibraries.v0.2.2.i686-w64-mingw32-libgfortran3.tar.gz"
+[[CompilerSupportLibraries]]
+arch = "i686"
+git-tree-sha1 = "233e53972586a795c68e9a1532bd9878f80c090c"
+libgfortran_version = "4.0.0"
+os = "windows"
+
+    [[CompilerSupportLibraries.download]]
+    sha256 = "77ce8c1be2890d6e53ebb08741bb1a514b8980c7c6e225e4ffeea3f6094b040c"
+    url = "https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl/releases/download/CompilerSupportLibraries-v0.2.2+0/CompilerSupportLibraries.v0.2.2.i686-w64-mingw32-libgfortran4.tar.gz"
