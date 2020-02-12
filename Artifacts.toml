@@ -27,15 +27,6 @@ os = "freebsd"
     url = "https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl/releases/download/CompilerSupportLibraries-v0.2.0+1/CompilerSupportLibraries.v0.2.0.x86_64-unknown-freebsd11.1-libgfortran5.tar.gz"
 [[CompilerSupportLibraries]]
 arch = "x86_64"
-git-tree-sha1 = "910fbb294c88e6e462640a1585ad15242abf798e"
-libgfortran_version = "3.0.0"
-os = "macos"
-
-    [[CompilerSupportLibraries.download]]
-    sha256 = "5f98e658e518b72881b16be63f041f750770743af984e2f84a485e940c9d7496"
-    url = "https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl/releases/download/CompilerSupportLibraries-v0.2.0+1/CompilerSupportLibraries.v0.2.0.x86_64-apple-darwin14-libgfortran3.tar.gz"
-[[CompilerSupportLibraries]]
-arch = "x86_64"
 git-tree-sha1 = "17c7fa38717029748ad21011262c72b5e0ab7852"
 libgfortran_version = "3.0.0"
 os = "freebsd"
@@ -376,3 +367,12 @@ os = "linux"
     [[CompilerSupportLibraries.download]]
     sha256 = "cc5b8aafa4f3cd7a9c88ec6267a83edbda1ec326f0ed7e5f744a0de53c4ca7d0"
     url = "https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl/releases/download/CompilerSupportLibraries-v0.2.2+0/CompilerSupportLibraries.v0.2.2.arm-linux-musleabihf-libgfortran5.tar.gz"
+[[CompilerSupportLibraries]]
+arch = "x86_64"
+git-tree-sha1 = "f433faa0bbdd7de08d134cce7858aab36bacb459"
+libgfortran_version = "3.0.0"
+os = "macos"
+
+    [[CompilerSupportLibraries.download]]
+    sha256 = "28a91c94151f1ddbc27dcd05841d54c200db52293e9ca1c33afe50b0df536199"
+    url = "https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl/releases/download/CompilerSupportLibraries-v0.2.2+0/CompilerSupportLibraries.v0.2.2.x86_64-apple-darwin14-libgfortran3.tar.gz"
