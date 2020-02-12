@@ -77,16 +77,6 @@ os = "linux"
     sha256 = "3d63ce03f9ac333f5f27ab541a5ded6f0976aa857ac48f68ed902fbe45785bbf"
     url = "https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl/releases/download/CompilerSupportLibraries-v0.2.0+1/CompilerSupportLibraries.v0.2.0.x86_64-linux-musl-libgfortran5.tar.gz"
 [[CompilerSupportLibraries]]
-arch = "aarch64"
-git-tree-sha1 = "b76501895843b73f06e20bf6c85c0943c66880c8"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[CompilerSupportLibraries.download]]
-    sha256 = "0bd86cc8d505487cee4d45ba3a7aacc263594627a84d5d93b40fb6ea1d06d809"
-    url = "https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl/releases/download/CompilerSupportLibraries-v0.2.0+1/CompilerSupportLibraries.v0.2.0.aarch64-linux-gnu-libgfortran3.tar.gz"
-[[CompilerSupportLibraries]]
 arch = "armv7l"
 git-tree-sha1 = "ac9bb146e1da3dc6769c1058f30b39452ffd9fb0"
 libc = "musl"
@@ -376,3 +366,13 @@ os = "linux"
     [[CompilerSupportLibraries.download]]
     sha256 = "9e51e7b1c95e7fbc83fe6bfe4c8cb0b3629e81761469cc805a3952b3c6ecd832"
     url = "https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl/releases/download/CompilerSupportLibraries-v0.2.2+0/CompilerSupportLibraries.v0.2.2.x86_64-linux-gnu-libgfortran5.tar.gz"
+[[CompilerSupportLibraries]]
+arch = "aarch64"
+git-tree-sha1 = "0b4a7692cb786aa4a7aaf190aaaa6dff52c9d38f"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[CompilerSupportLibraries.download]]
+    sha256 = "ffb19f040795da481db3fb96bdb960eee68c0c5f1f4bc59a1f10c3ef49d98745"
+    url = "https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl/releases/download/CompilerSupportLibraries-v0.2.2+0/CompilerSupportLibraries.v0.2.2.aarch64-linux-gnu-libgfortran3.tar.gz"
