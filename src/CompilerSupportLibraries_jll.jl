@@ -30,7 +30,7 @@ const LIBPATH_list = String[]
 artifacts_toml = joinpath(@__DIR__, "..", "Artifacts.toml")
 
 # Extract all platforms
-artifacts = Pkg.Artifacts.load_artifacts_toml(artifacts_toml; pkg_uuid=UUID("2a0299ec-ce93-5294-a8a9-ec9401735631"))
+artifacts = Pkg.Artifacts.load_artifacts_toml(artifacts_toml; pkg_uuid=UUID("e66e0078-7015-5450-92f7-15fbd957f2ae"))
 platforms = [Pkg.Artifacts.unpack_platform(e, "CompilerSupportLibraries", artifacts_toml) for e in artifacts["CompilerSupportLibraries"]]
 
 # Filter platforms based on what wrappers we've generated on-disk
@@ -43,7 +43,10 @@ best_platform = select_platform(Dict(p => triplet(p) for p in platforms))
 if best_platform === nothing
     @debug("Unable to load CompilerSupportLibraries; unsupported platform $(triplet(platform_key_abi()))")
 else
-    # Load the appropriate wrapper
+    # Load the appropriate wrapper.  Note that on older Julia versions, we still
+    # say "arm-linux-gnueabihf" instead of the more correct "armv7l-linux-gnueabihf",
+    # so we manually correct for that here:
+    best_platform = replace(best_platform, "arm-" => "armv7l-")
     include(joinpath(@__DIR__, "wrappers", "$(best_platform).jl"))
 end
 
