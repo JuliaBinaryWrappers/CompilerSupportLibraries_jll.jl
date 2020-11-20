@@ -1,6 +1,6 @@
 name = "CompilerSupportLibraries_jll"
 uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
-version = "0.3.6+0"
+version = "0.3.6+1"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
