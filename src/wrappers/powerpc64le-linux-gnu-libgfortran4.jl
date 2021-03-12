@@ -11,7 +11,7 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libatomic,
-        "lib/libatomic.so.1",
+        "lib/libatomic.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
@@ -23,19 +23,19 @@ function __init__()
 
     JLLWrappers.@init_library_product(
         libgfortran,
-        "lib/libgfortran.so.4",
+        "lib/libgfortran.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libgomp,
-        "lib/libgomp.so.1",
+        "lib/libgomp.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libstdcxx,
-        "lib/libstdc++.so.6",
+        "lib/libstdc++.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
