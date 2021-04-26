@@ -8,13 +8,13 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 
 The tarballs for `CompilerSupportLibraries_jll.jl` have been built from these sources:
 
-* file: /home/sabae/src/Yggdrasil/C/CompilerSupportLibraries/build/extraction/products/LatestLibraries.v0.4.1.i686-linux-gnu.tar.gz (SHA256 checksum: `5e64126cea43d9fc42680313def3651987bdca368b0a7418fd039702ddc307e2`)
+* file: /home/sabae/src/Yggdrasil/C/CompilerSupportLibraries/build/extraction/products/LatestLibraries.v0.4.1.i686-linux-gnu.tar.gz (SHA256 checksum: `29eb7162775662b3d5f137fd479497c9dd8434d025f674fb168952d6b9337612`)
 
 ## Platforms
 
 `CompilerSupportLibraries_jll.jl` is available for the following platforms:
 
-* `Linux i686 {libc=glibc, libgfortran_version=4.0.0}` (`i686-linux-gnu-libgfortran4`)
+* `Linux i686 {libc=glibc, libgfortran_version=3.0.0}` (`i686-linux-gnu-libgfortran3`)
 
 ## Products
 
