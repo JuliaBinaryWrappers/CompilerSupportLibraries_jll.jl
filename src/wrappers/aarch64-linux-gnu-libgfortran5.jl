@@ -17,7 +17,7 @@ function __init__()
 
     JLLWrappers.@init_library_product(
         libgcc_s,
-        "lib/libgcc_s.so",
+        "lib/libgcc_s.so.1",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 

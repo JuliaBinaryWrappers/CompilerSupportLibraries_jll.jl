@@ -2,7 +2,7 @@
 export libatomic, libgcc_s, libgfortran, libgomp, libstdcxx
 
 JLLWrappers.@generate_wrapper_header("CompilerSupportLibraries")
-JLLWrappers.@declare_library_product(libatomic, "libatomic.so.1")
+JLLWrappers.@declare_library_product(libatomic, "libatomic.so.3")
 JLLWrappers.@declare_library_product(libgcc_s, "libgcc_s.so.1")
 JLLWrappers.@declare_library_product(libgfortran, "libgfortran.so.3")
 JLLWrappers.@declare_library_product(libgomp, "libgomp.so.1")
