@@ -3,7 +3,7 @@ export libatomic, libgcc_s, libgfortran, libgomp, libstdcxx
 
 JLLWrappers.@generate_wrapper_header("CompilerSupportLibraries")
 JLLWrappers.@declare_library_product(libatomic, "@rpath/libatomic.1.dylib")
-JLLWrappers.@declare_library_product(libgcc_s, "libgcc_s.1.dylib")
+JLLWrappers.@declare_library_product(libgcc_s, "libgcc_s.1.1.dylib")
 JLLWrappers.@declare_library_product(libgfortran, "@rpath/libgfortran.5.dylib")
 JLLWrappers.@declare_library_product(libgomp, "@rpath/libgomp.1.dylib")
 JLLWrappers.@declare_library_product(libstdcxx, "@rpath/libstdc++.6.dylib")
@@ -17,7 +17,7 @@ function __init__()
 
     JLLWrappers.@init_library_product(
         libgcc_s,
-        "lib/libgcc_s.1.dylib",
+        "lib/libgcc_s.1.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
