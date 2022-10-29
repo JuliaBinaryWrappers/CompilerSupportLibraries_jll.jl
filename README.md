@@ -16,7 +16,7 @@ The tarballs for `CompilerSupportLibraries_jll.jl` have been built from these so
 
 `CompilerSupportLibraries_jll.jl` is available for the following platforms:
 
-* `FreeBSD x86_64 {libgfortran_version=4.0.0}` (`x86_64-unknown-freebsd-libgfortran4`)
+* `FreeBSD x86_64 {libgfortran_version=5.0.0}` (`x86_64-unknown-freebsd-libgfortran5`)
 
 ## Products
 
