@@ -16,7 +16,7 @@ The tarballs for `CompilerSupportLibraries_jll.jl` have been built from these so
 
 `CompilerSupportLibraries_jll.jl` is available for the following platforms:
 
-* `Linux aarch64 {libc=glibc, libgfortran_version=4.0.0}` (`aarch64-linux-gnu-libgfortran4`)
+* `Linux aarch64 {libc=glibc, libgfortran_version=5.0.0}` (`aarch64-linux-gnu-libgfortran5`)
 
 ## Products
 
