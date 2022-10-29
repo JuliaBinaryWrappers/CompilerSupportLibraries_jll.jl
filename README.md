@@ -16,7 +16,7 @@ The tarballs for `CompilerSupportLibraries_jll.jl` have been built from these so
 
 `CompilerSupportLibraries_jll.jl` is available for the following platforms:
 
-* `Windows x86_64 {libgfortran_version=4.0.0}` (`x86_64-w64-mingw32-libgfortran4`)
+* `Windows x86_64 {libgfortran_version=5.0.0}` (`x86_64-w64-mingw32-libgfortran5`)
 
 ## Products
 
