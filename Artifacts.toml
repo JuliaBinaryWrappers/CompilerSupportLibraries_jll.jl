@@ -1,14 +1,5 @@
 [[CompilerSupportLibraries]]
 arch = "x86_64"
-git-tree-sha1 = "9b72744737b58fa08d8ebd1e7d6d7e2ff27a2f1a"
-libgfortran_version = "4.0.0"
-os = "freebsd"
-
-    [[CompilerSupportLibraries.download]]
-    sha256 = "e3ef06bf7d29e2a35e0b1985ead1c1f160ba723bfacd4cf11eb8a3b9bb61934f"
-    url = "https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl/releases/download/CompilerSupportLibraries-v0.5.4+0/CompilerSupportLibraries.v0.5.4.x86_64-unknown-freebsd-libgfortran4.tar.gz"
-[[CompilerSupportLibraries]]
-arch = "x86_64"
 git-tree-sha1 = "c4ef428ca3461c7988413e3a576d93981893f87f"
 libgfortran_version = "5.0.0"
 os = "freebsd"
@@ -457,3 +448,12 @@ os = "freebsd"
     [[CompilerSupportLibraries.download]]
     sha256 = "be6688378226aec93680e8130610df23c314132da4e4f3fa60542edaab5ae077"
     url = "https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl/releases/download/CompilerSupportLibraries-v0.6.2+0/CompilerSupportLibraries.v0.6.2.x86_64-unknown-freebsd-libgfortran3.tar.gz"
+[[CompilerSupportLibraries]]
+arch = "x86_64"
+git-tree-sha1 = "5235848c4d279fb6733528abaa8edcf1d813c7b7"
+libgfortran_version = "4.0.0"
+os = "freebsd"
+
+    [[CompilerSupportLibraries.download]]
+    sha256 = "af4d0d3ceba1a379ad534132ed099826e63a82adece77c6fc0db74134ba22c7d"
+    url = "https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl/releases/download/CompilerSupportLibraries-v0.6.2+0/CompilerSupportLibraries.v0.6.2.x86_64-unknown-freebsd-libgfortran4.tar.gz"
