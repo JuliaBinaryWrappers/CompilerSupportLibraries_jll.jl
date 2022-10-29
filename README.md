@@ -16,7 +16,7 @@ The tarballs for `CompilerSupportLibraries_jll.jl` have been built from these so
 
 `CompilerSupportLibraries_jll.jl` is available for the following platforms:
 
-* `Linux armv7l {call_abi=eabihf, libc=musl, libgfortran_version=3.0.0}` (`armv7l-linux-musleabihf-libgfortran3`)
+* `Linux armv7l {call_abi=eabihf, libc=musl, libgfortran_version=4.0.0}` (`armv7l-linux-musleabihf-libgfortran4`)
 
 ## Products
 
