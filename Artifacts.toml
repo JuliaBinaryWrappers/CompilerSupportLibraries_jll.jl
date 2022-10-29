@@ -1,15 +1,5 @@
 [[CompilerSupportLibraries]]
 arch = "aarch64"
-git-tree-sha1 = "3ab7d0fe835c12b122dbcfb0a5353f8090bed57b"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[CompilerSupportLibraries.download]]
-    sha256 = "d3946bb210b2903a888e16dd9f047023f7ee89bddae4ba2f79db66105545df0a"
-    url = "https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl/releases/download/CompilerSupportLibraries-v0.5.4+0/CompilerSupportLibraries.v0.5.4.aarch64-linux-musl-libgfortran3.tar.gz"
-[[CompilerSupportLibraries]]
-arch = "aarch64"
 git-tree-sha1 = "2c3ad542187ea2f650d9d02e0a8cd6a071829654"
 libc = "musl"
 libgfortran_version = "4.0.0"
@@ -457,3 +447,13 @@ os = "linux"
     [[CompilerSupportLibraries.download]]
     sha256 = "5d284a38048738a7d14ff1e327af5da868556fa1b4f331ca10ed652cfd4e130b"
     url = "https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl/releases/download/CompilerSupportLibraries-v0.6.2+0/CompilerSupportLibraries.v0.6.2.x86_64-linux-musl-libgfortran5.tar.gz"
+[[CompilerSupportLibraries]]
+arch = "aarch64"
+git-tree-sha1 = "0fb87bd5bbd72fdf4d5bd91633cb3849cee11d09"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[CompilerSupportLibraries.download]]
+    sha256 = "4f7e7de5a43cab303c7a435cf59dcc22895e63508f2811945aa00513ae04992f"
+    url = "https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl/releases/download/CompilerSupportLibraries-v0.6.2+0/CompilerSupportLibraries.v0.6.2.aarch64-linux-musl-libgfortran3.tar.gz"
