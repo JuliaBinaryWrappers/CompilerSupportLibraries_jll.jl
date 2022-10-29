@@ -10,13 +10,13 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 
 The tarballs for `CompilerSupportLibraries_jll.jl` have been built from these sources:
 
-* file: /home/mose/repo/Yggdrasil/C/CompilerSupportLibraries/build/extraction/products/LatestLibraries.v0.6.2.x86_64-apple-darwin.tar.gz (SHA256 checksum: `f80edcbde0518f0cf96da37e282302709a51fc24e443f9e28a2822b92b3519d6`)
+* file: /home/mose/repo/Yggdrasil/C/CompilerSupportLibraries/build/extraction/products/LatestLibraries.v0.6.2.aarch64-apple-darwin.tar.gz (SHA256 checksum: `3e71c572c2292ad3d6d9fe7551c7ec27514fbee8ec03a734f277c23f4de56b5d`)
 
 ## Platforms
 
 `CompilerSupportLibraries_jll.jl` is available for the following platforms:
 
-* `macOS x86_64 {libgfortran_version=5.0.0}` (`x86_64-apple-darwin-libgfortran5`)
+* `macOS aarch64 {libgfortran_version=5.0.0}` (`aarch64-apple-darwin-libgfortran5`)
 
 ## Products
 
