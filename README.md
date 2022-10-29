@@ -10,13 +10,13 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 
 The tarballs for `CompilerSupportLibraries_jll.jl` have been built from these sources:
 
-* file: /home/mose/repo/Yggdrasil/C/CompilerSupportLibraries/build/extraction/products/LatestLibraries.v0.6.2.i686-linux-musl.tar.gz (SHA256 checksum: `03a647466fcd1b8121d9ddfba10e39d5b009c454e5809f2ecdd39e9f447a66de`)
+* file: /home/mose/repo/Yggdrasil/C/CompilerSupportLibraries/build/extraction/products/LatestLibraries.v0.6.2.x86_64-linux-musl.tar.gz (SHA256 checksum: `983896199ddb89ccbd3f88be5eb67074ad3f573f81c4cf6ea3427621d3ed2e2c`)
 
 ## Platforms
 
 `CompilerSupportLibraries_jll.jl` is available for the following platforms:
 
-* `Linux i686 {libc=musl, libgfortran_version=5.0.0}` (`i686-linux-musl-libgfortran5`)
+* `Linux x86_64 {libc=musl, libgfortran_version=3.0.0}` (`x86_64-linux-musl-libgfortran3`)
 
 ## Products
 
