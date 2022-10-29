@@ -1,13 +1,4 @@
 [[CompilerSupportLibraries]]
-arch = "x86_64"
-git-tree-sha1 = "7dc9cd600234b42fa533346b36983e8876d48af2"
-libgfortran_version = "5.0.0"
-os = "macos"
-
-    [[CompilerSupportLibraries.download]]
-    sha256 = "eda76578bcffa291a1c87e6f362f286c46ba271d6c049ec445b851b21d76b20b"
-    url = "https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl/releases/download/CompilerSupportLibraries-v0.5.4+0/CompilerSupportLibraries.v0.5.4.x86_64-apple-darwin-libgfortran5.tar.gz"
-[[CompilerSupportLibraries]]
 arch = "aarch64"
 git-tree-sha1 = "f9547d56705c03a6e887a01aeb0f0b6b030b7060"
 libgfortran_version = "5.0.0"
@@ -457,3 +448,12 @@ os = "macos"
     [[CompilerSupportLibraries.download]]
     sha256 = "2b8df36350a0bb1a74db46f633013c63556edf963ec29813a58ac703f4dd49ca"
     url = "https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl/releases/download/CompilerSupportLibraries-v0.6.2+0/CompilerSupportLibraries.v0.6.2.x86_64-apple-darwin-libgfortran4.tar.gz"
+[[CompilerSupportLibraries]]
+arch = "x86_64"
+git-tree-sha1 = "30d838bb2a3f9696646b13c7cdae3156ef38e426"
+libgfortran_version = "5.0.0"
+os = "macos"
+
+    [[CompilerSupportLibraries.download]]
+    sha256 = "64c30ca3d6c842b6ab6e0b0070b0f7d712f8037b81b63617c9a01575d26c50f5"
+    url = "https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl/releases/download/CompilerSupportLibraries-v0.6.2+0/CompilerSupportLibraries.v0.6.2.x86_64-apple-darwin-libgfortran5.tar.gz"
