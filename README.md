@@ -16,7 +16,7 @@ The tarballs for `CompilerSupportLibraries_jll.jl` have been built from these so
 
 `CompilerSupportLibraries_jll.jl` is available for the following platforms:
 
-* `macOS x86_64 {libgfortran_version=3.0.0}` (`x86_64-apple-darwin-libgfortran3`)
+* `macOS x86_64 {libgfortran_version=4.0.0}` (`x86_64-apple-darwin-libgfortran4`)
 
 ## Products
 
