@@ -15,7 +15,7 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_file_product(
         libgcc_a,
-        "lib\\libgcc.a",
+        "lib\\gcc\\x86_64-w64-mingw32\\13\\libgcc.a",
     )
 
     JLLWrappers.@init_library_product(
@@ -26,7 +26,7 @@ function __init__()
 
     JLLWrappers.@init_file_product(
         libgcc_s_a,
-        "lib\\libgcc_s.a",
+        "lib\\gcc\\x86_64-w64-mingw32\\13\\libgcc_s.a",
     )
 
     JLLWrappers.@init_library_product(
@@ -43,7 +43,7 @@ function __init__()
 
     JLLWrappers.@init_file_product(
         libmsvcrt_a,
-        "lib\\libmsvcrt.a",
+        "lib\\gcc\\x86_64-w64-mingw32\\13\\libmsvcrt.a",
     )
 
     JLLWrappers.@init_library_product(
@@ -54,7 +54,7 @@ function __init__()
 
     JLLWrappers.@init_file_product(
         libssp_dll_a,
-        "lib\\libssp.dll.a",
+        "lib\\gcc\\x86_64-w64-mingw32\\13\\libssp.dll.a",
     )
 
     JLLWrappers.@init_library_product(
