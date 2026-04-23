@@ -25,22 +25,22 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_file_product(
         crtbegin_o,
-        "lib\\gcc\\x86_64-w64-mingw32\\14\\crtbegin.o",
+        "lib\\crtbegin.o",
     )
 
     JLLWrappers.@init_file_product(
         crtend_o,
-        "lib\\gcc\\x86_64-w64-mingw32\\14\\crtend.o",
+        "lib\\crtend.o",
     )
 
     JLLWrappers.@init_file_product(
         dllcrt2_o,
-        "lib\\gcc\\x86_64-w64-mingw32\\14\\dllcrt2.o",
+        "lib\\dllcrt2.o",
     )
 
     JLLWrappers.@init_file_product(
         libadvapi32_a,
-        "lib\\gcc\\x86_64-w64-mingw32\\14\\libadvapi32.a",
+        "lib\\libadvapi32.a",
     )
 
     JLLWrappers.@init_library_product(
@@ -51,7 +51,7 @@ function __init__()
 
     JLLWrappers.@init_file_product(
         libgcc_a,
-        "lib\\gcc\\x86_64-w64-mingw32\\14\\libgcc.a",
+        "lib\\libgcc.a",
     )
 
     JLLWrappers.@init_library_product(
@@ -62,7 +62,7 @@ function __init__()
 
     JLLWrappers.@init_file_product(
         libgcc_s_a,
-        "lib\\gcc\\x86_64-w64-mingw32\\14\\libgcc_s.a",
+        "lib\\libgcc_s.a",
     )
 
     JLLWrappers.@init_library_product(
@@ -79,27 +79,27 @@ function __init__()
 
     JLLWrappers.@init_file_product(
         libmingw32_a,
-        "lib\\gcc\\x86_64-w64-mingw32\\14\\libmingw32.a",
+        "lib\\libmingw32.a",
     )
 
     JLLWrappers.@init_file_product(
         libmoldname_a,
-        "lib\\gcc\\x86_64-w64-mingw32\\14\\libmoldname.a",
+        "lib\\libmoldname.a",
     )
 
     JLLWrappers.@init_file_product(
         libmsvcrt_a,
-        "lib\\gcc\\x86_64-w64-mingw32\\14\\libmsvcrt.a",
+        "lib\\libmsvcrt.a",
     )
 
     JLLWrappers.@init_file_product(
         libpthread_dll_a,
-        "lib\\gcc\\x86_64-w64-mingw32\\14\\libpthread.dll.a",
+        "lib\\libpthread.dll.a",
     )
 
     JLLWrappers.@init_file_product(
         libshell32_a,
-        "lib\\gcc\\x86_64-w64-mingw32\\14\\libshell32.a",
+        "lib\\libshell32.a",
     )
 
     JLLWrappers.@init_library_product(
@@ -110,7 +110,7 @@ function __init__()
 
     JLLWrappers.@init_file_product(
         libssp_dll_a,
-        "lib\\gcc\\x86_64-w64-mingw32\\14\\libssp.dll.a",
+        "lib\\libssp.dll.a",
     )
 
     JLLWrappers.@init_library_product(
@@ -121,7 +121,7 @@ function __init__()
 
     JLLWrappers.@init_file_product(
         libuser32_a,
-        "lib\\gcc\\x86_64-w64-mingw32\\14\\libuser32.a",
+        "lib\\libuser32.a",
     )
 
     JLLWrappers.@generate_init_footer()
