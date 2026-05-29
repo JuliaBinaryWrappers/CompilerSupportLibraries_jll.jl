@@ -8,7 +8,7 @@ JLLWrappers.@declare_file_product(crti_o)
 JLLWrappers.@declare_file_product(crtn_o)
 JLLWrappers.@declare_library_product(libatomic, "libatomic.so.1")
 JLLWrappers.@declare_file_product(libgcc_a)
-JLLWrappers.@declare_library_product(libgcc_s, "libgcc_s.so.1")
+JLLWrappers.@declare_library_product(libgcc_s, "libgcc_s.so")
 JLLWrappers.@declare_library_product(libgfortran, "libgfortran.so.5")
 JLLWrappers.@declare_library_product(libgomp, "libgomp.so.1")
 JLLWrappers.@declare_library_product(libstdcxx, "libstdc++.so.6")
@@ -47,7 +47,7 @@ function __init__()
 
     JLLWrappers.@init_library_product(
         libgcc_s,
-        "lib/libgcc_s.so.1",
+        "lib/libgcc_s.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
