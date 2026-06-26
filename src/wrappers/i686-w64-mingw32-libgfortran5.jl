@@ -41,32 +41,32 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_file_product(
         crt2_o,
-        "lib\\gcc\\i686-w64-mingw32\\15\\crt2.o",
+        "lib\\gcc\\i686-w64-mingw32\\13\\crt2.o",
     )
 
     JLLWrappers.@init_file_product(
         crt2u_o,
-        "lib\\gcc\\i686-w64-mingw32\\15\\crt2u.o",
+        "lib\\gcc\\i686-w64-mingw32\\13\\crt2u.o",
     )
 
     JLLWrappers.@init_file_product(
         crtbegin_o,
-        "lib\\gcc\\i686-w64-mingw32\\15\\crtbegin.o",
+        "lib\\gcc\\i686-w64-mingw32\\13\\crtbegin.o",
     )
 
     JLLWrappers.@init_file_product(
         crtend_o,
-        "lib\\gcc\\i686-w64-mingw32\\15\\crtend.o",
+        "lib\\gcc\\i686-w64-mingw32\\13\\crtend.o",
     )
 
     JLLWrappers.@init_file_product(
         dllcrt2_o,
-        "lib\\gcc\\i686-w64-mingw32\\15\\dllcrt2.o",
+        "lib\\gcc\\i686-w64-mingw32\\13\\dllcrt2.o",
     )
 
     JLLWrappers.@init_file_product(
         libadvapi32_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libadvapi32.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libadvapi32.a",
     )
 
     JLLWrappers.@init_library_product(
@@ -77,12 +77,12 @@ function __init__()
 
     JLLWrappers.@init_file_product(
         libdbghelp_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libdbghelp.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libdbghelp.a",
     )
 
     JLLWrappers.@init_file_product(
         libgcc_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libgcc.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libgcc.a",
     )
 
     JLLWrappers.@init_library_product(
@@ -93,7 +93,7 @@ function __init__()
 
     JLLWrappers.@init_file_product(
         libgcc_s_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libgcc_s.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libgcc_s.a",
     )
 
     JLLWrappers.@init_library_product(
@@ -110,67 +110,67 @@ function __init__()
 
     JLLWrappers.@init_file_product(
         libiphlpapi_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libiphlpapi.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libiphlpapi.a",
     )
 
     JLLWrappers.@init_file_product(
         libkernel32_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libkernel32.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libkernel32.a",
     )
 
     JLLWrappers.@init_file_product(
         libmingw32_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libmingw32.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libmingw32.a",
     )
 
     JLLWrappers.@init_file_product(
         libmingwex_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libmingwex.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libmingwex.a",
     )
 
     JLLWrappers.@init_file_product(
         libmoldname_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libmoldname.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libmoldname.a",
     )
 
     JLLWrappers.@init_file_product(
         libmsvcrt_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libmsvcrt.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libmsvcrt.a",
     )
 
     JLLWrappers.@init_file_product(
         libmsvcrt_os_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libmsvcrt-os.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libmsvcrt-os.a",
     )
 
     JLLWrappers.@init_file_product(
         libntdll_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libntdll.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libntdll.a",
     )
 
     JLLWrappers.@init_file_product(
         libole32_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libole32.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libole32.a",
     )
 
     JLLWrappers.@init_file_product(
         libpsapi_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libpsapi.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libpsapi.a",
     )
 
     JLLWrappers.@init_file_product(
         libpthread_dll_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libpthread.dll.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libpthread.dll.a",
     )
 
     JLLWrappers.@init_file_product(
         libsecur32_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libsecur32.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libsecur32.a",
     )
 
     JLLWrappers.@init_file_product(
         libshell32_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libshell32.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libshell32.a",
     )
 
     JLLWrappers.@init_library_product(
@@ -181,12 +181,12 @@ function __init__()
 
     JLLWrappers.@init_file_product(
         libssp_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libssp.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libssp.a",
     )
 
     JLLWrappers.@init_file_product(
         libssp_dll_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libssp.dll.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libssp.dll.a",
     )
 
     JLLWrappers.@init_library_product(
@@ -197,27 +197,27 @@ function __init__()
 
     JLLWrappers.@init_file_product(
         libuser32_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libuser32.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libuser32.a",
     )
 
     JLLWrappers.@init_file_product(
         libuserenv_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libuserenv.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libuserenv.a",
     )
 
     JLLWrappers.@init_file_product(
         libuuid_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libuuid.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libuuid.a",
     )
 
     JLLWrappers.@init_file_product(
         libwinmm_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libwinmm.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libwinmm.a",
     )
 
     JLLWrappers.@init_file_product(
         libws2_32_a,
-        "lib\\gcc\\i686-w64-mingw32\\15\\libws2_32.a",
+        "lib\\gcc\\i686-w64-mingw32\\13\\libws2_32.a",
     )
 
     JLLWrappers.@generate_init_footer()
